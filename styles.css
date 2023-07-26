@@ -51,15 +51,19 @@ nav ul li a {
 
 .hero-text {
     flex: 1;
+    padding: 0 20px 0 0;
 }
 
 .hero-text h1 {
     color: var(--white-text);
+    font-size: 48px;
+    font-weight: 700;
     padding: 5px 0;
 }
 
 .hero-text p {
     color: var(--grey);
+    font-size: 18px;
     padding-bottom: 10px;
 }
 
@@ -78,4 +82,36 @@ nav ul li a {
     flex: 1;
     width: 500px;
     height: 250px;
+}
+
+.info h2 {
+    text-align: center;
+    color: var(--dark);
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.thumbnail_and_text {
+    width: 125px;
+}
+
+.thumbnail {
+    border: 3px solid var(--blue);
+    width: 125px;
+    height: 125px;
+    color: white;
+    border-radius: 8px;
+}
+
+.thumbnail_text {
+    font-size: 12px;
+    text-align: center;
+    padding: 7px 0 50px 0;
 }
