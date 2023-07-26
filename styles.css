@@ -12,8 +12,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-}
+body {}
 
 header {
     display: flex;
@@ -24,7 +23,7 @@ header {
     align-items: center;
 }
 
-header > h2 {
+header>h2 {
     font-size: 24px;
     color: var(--white-text);
 }
@@ -123,11 +122,12 @@ button {
 .quote {
     padding: 100px 240px 0 240px;
 }
+
 .quote-text {
-   color: var(--dark);
-   font-size: 36px;
-   font-style: italic;
-   font-weight: 300;
+    color: var(--dark);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .quote-author {
@@ -145,6 +145,7 @@ button {
     border-radius: 5px;
     color: var(--white-text)
 }
+
 .banner button {
     border: 2px solid var(--white-text);
 }
@@ -157,6 +158,7 @@ footer {
     align-items: center;
     color: var(--grey);
 }
+
 footer p {
     text-align: center;
     font-size: 14px
